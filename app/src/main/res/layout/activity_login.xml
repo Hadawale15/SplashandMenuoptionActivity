@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_launcher_background"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:drawableTop="@drawable/ic_baseline_account_circle_24"/>
+
+    <EditText
+        android:id="@+id/username_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="enter username"
+        android:textSize="25sp"
+        android:drawableLeft="@drawable/username_icon"
+        android:drawablePadding="15dp"/>
+
+    <EditText
+        android:id="@+id/pass_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="enter password"
+        android:textSize="25sp"
+        android:drawableLeft="@drawable/pass_icon"
+        android:drawablePadding="15dp"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        android:text="Sign In"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/sign"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:layout_gravity="center"
+    android:text="Don't have account? Sign Up"
+        android:textSize="25sp"/>
+
+
+
+
+</LinearLayout>
